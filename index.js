@@ -3,7 +3,8 @@
 function findMatching(drivers, string){
   newArray =[];
   for (let i=0; i<= drivers.length; i++){
-    if(drivers[i] === string || drivers[i].toLowerCase() === string){
+    driverString = drivers[i]
+    if(driverString === string || driverString.toLowerCase() === string){
       newArray.push(drivers[i])
     }
   }

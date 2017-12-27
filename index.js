@@ -7,6 +7,8 @@ function findMatching(drivers, string){
     if(driverString === string){
       newArray.push(driverString)
     }
+    else if(driverString.toLowerCase() === string)
+    newArray.push(driverString)
   }
   return newArray
 }

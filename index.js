@@ -5,7 +5,7 @@ function findMatching(drivers, string){
   for (let i=0; i<= drivers.length; i++){
     driverString = drivers[i]
     if(driverString === string || driverString.toLowerCase() === string){
-      newArray.push(drivers[i])
+      newArray.push(driverString)
     }
   }
   return newArray

@@ -2,7 +2,7 @@
 
 function findMatching(drivers, string){
   newArray =[];
-  for (let i=0; i<= drivers.legnth; i++){
+  for (let i=0; i<= drivers.length; i++){
     if(drivers[i] === string){
       newArray.push(drivers[i])
     }
